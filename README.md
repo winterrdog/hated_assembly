@@ -8,3 +8,7 @@ Complied them with nasm and ld because i was using a linux system. these are the
   nasm -f elf32 -o filename.o filename.asm
   
   ld -o filename filename.o
+
+REF:
+    
+    SYSCALLS: https://syscalls.w3challs.com/?arch=x86_64
