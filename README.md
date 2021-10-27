@@ -4,6 +4,7 @@ They(These scripts) don't have too much touch to them so u can modify them to yo
 They're for IA32/x86/i386 arch.
 
 Complied them with nasm and ld because i was using a linux system. these are the commands i used in the process:
+  
   nasm -f elf32 -o filename.o filename.asm
   
   ld -o filename filename.o
