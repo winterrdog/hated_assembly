@@ -1,5 +1,6 @@
 global _start
 
+;; I was using a little-endian machine, so data is read in reverse(technically meaning LSB first)
 section .text
 _start:
     mov     eax, 0x66           ;; socketcall syscall number
