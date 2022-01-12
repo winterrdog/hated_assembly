@@ -3,11 +3,11 @@ My practice assembly shell spawning scripts i wrote while learning reverse shell
 They(These scripts) don't have too much touch to them so u can modify them to your content if u wish. I used Intel syntax in them. 
 They're for IA32/x86/i386 arch. It's also specific to the linux KERNEL.
 
-Complied them with nasm and ld because i was using a linux system. these are the commands i used in the process:
+Complied with `nasm` and then linked with `ld` because i was using a linux system. these are the commands i used in the process:
   
-  nasm -f elf32 -o filename.o filename.asm
+  `nasm -f elf32 -o filename.o filename.asm`
   
-  ld -o filename filename.o
+  `ld -o filename filename.o`
 
 REF:
     
