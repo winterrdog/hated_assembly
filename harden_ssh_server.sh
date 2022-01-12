@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Use this short script to harden your server in case u access it via SSH 
 rm -f /etc/ssh/ssh_host_*
 
 ssh-keygen -t rsa -b 4096 -f /etc/ssh/ssh_host_rsa_key -N ""
